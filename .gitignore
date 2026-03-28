@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Data files (can be regenerated)
+# enhanced_data/*.csv
+# processed_data/*.csv
+
+# Database (can be regenerated)
+# *.db
+# *.sqlite
+
+# Visualizations (can be regenerated)
+visualizations/*.png
+visualizations/*.html
+visualizations/*.jpg
+visualizations/*.jpeg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# API Keys and Secrets (QUAN TRỌNG - KHÔNG COMMIT API KEY!)
+.env
+.env.local
+*.key
+*.pem
+
+# Sensitive config files
+config.json
+secrets.json
+
+.env
+*.db
+__pycache__/
+.ipynb_checkpoints/

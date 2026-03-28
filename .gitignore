@@ -55,7 +55,7 @@ config.json
 secrets.json
 
 .env
-*.db
+# *.db  <- removed to allow aqi_analysis.db
 __pycache__/
 .ipynb_checkpoints/
 
@@ -66,4 +66,4 @@ models/horizon_30/model_model1_ExtraTrees.pkl
 models/horizon_30/model_model2_RandomForest.pkl
 models/horizon_365/model_model1_ExtraTrees.pkl
 models/horizon_365/model_model2_RandomForest.pkl
-models/horizon_7/model_model1_ExtraTrees.pkl
+

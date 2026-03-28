@@ -1,0 +1,21 @@
+{
+  "records": 7670,
+  "date_min": "2004-10-01",
+  "date_max": "2025-09-30",
+  "total_plots": 13,
+  "plots_description": {
+    "1_aqi_trend_over_time.png": "Xu hướng AQI theo thời gian (2004-2025)",
+    "2_pollutant_importance.png": "Pollutant quan trọng nhất (tương quan với AQI)",
+    "3_seasonal_patterns.png": "Phân bố AQI theo mùa và tháng",
+    "4_weather_impact.png": "Ảnh hưởng của thời tiết lên AQI",
+    "5_pollutant_correlations.png": "Ma trận tương quan giữa các pollutants",
+    "6_pollutants_timeseries.png": "Xu hướng các pollutants theo thời gian",
+    "7_aqi_distribution.png": "Phân bố AQI theo category",
+    "8_calendar_heatmap.png": "Calendar heatmap AQI theo tháng/năm",
+    "9_pm25_vs_pm10.png": "PM2.5 vs PM10 với AQI coloring",
+    "10_lag_features.png": "AQI hôm nay vs AQI hôm qua (lag features)",
+    "11_rolling_statistics.png": "Rolling statistics của AQI",
+    "12_monthly_pollutants.png": "Trung bình pollutants theo tháng",
+    "13_pollution_vs_normal_pie.png": "Tổng số ngày ô nhiễm vs ngày bình thường (Pie chart)"
+  }
+}

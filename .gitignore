@@ -30,11 +30,8 @@ ENV/
 # *.db
 # *.sqlite
 
-# Visualizations (can be regenerated)
-visualizations/*.png
-visualizations/*.html
-visualizations/*.jpg
-visualizations/*.jpeg
+# Visualizations - tracked for Streamlit Cloud demo
+# visualizations/*.png
 
 # OS
 .DS_Store
@@ -61,3 +58,12 @@ secrets.json
 *.db
 __pycache__/
 .ipynb_checkpoints/
+
+# Large ML model files (>100MB - exceeds GitHub limit)
+models/horizon_1/model_model1_GradientBoosting.pkl
+models/horizon_7/model_model2_GradientBoosting.pkl
+models/horizon_30/model_model1_ExtraTrees.pkl
+models/horizon_30/model_model2_RandomForest.pkl
+models/horizon_365/model_model1_ExtraTrees.pkl
+models/horizon_365/model_model2_RandomForest.pkl
+models/horizon_7/model_model1_ExtraTrees.pkl
